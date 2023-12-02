@@ -1,0 +1,252 @@
+.mainContainer {
+  background-image: linear-gradient(#2e5e8e, #2f8293);
+  height: 81vh;
+}
+.logo {
+  width: 330px;
+  margin: 25px 590px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+.wrapperLeft {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 328px;
+  margin-bottom: 50px;
+  width: 350px;
+  padding: 15.5px;
+}
+.heading {
+  font-weight: normal;
+  color: #545454;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 70px;
+}
+
+.inputBox {
+  padding: 8px;
+  outline: none;
+  border: 1px solid lightgray;
+  background-color: #e1e0e0;
+  margin: 4px;
+  font-size: 15px;
+  width: 290px;
+  box-sizing: border-box;
+  margin-left: 45px;
+  box-shadow: outset 0 0 3px 2px #888;
+}
+
+.or {
+  position: relative;
+  background-color: #e1e0e0;
+  width: 30px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-left: 270px;
+  margin-top: -7px;
+  margin-bottom: -9px;
+  font-size: 15px;
+}
+
+.btn {
+  background-color: #59b71f;
+  cursor: pointer;
+  color: #ffffff;
+}
+.btn:hover {
+  background-color: rgb(42, 204, 42);
+}
+
+.footer {
+  font-weight: normal;
+  color: #939393;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.close {
+  color: white !important;
+}
+
+.wrapperRight {
+  height: 359px;
+  width: 360px;
+  background-color: #4989ca;
+  margin-bottom: 50px;
+}
+.cross {
+  width: 20px;
+  object-fit: contain;
+  padding: 20px;
+  margin-left: 280px;
+  cursor: pointer;
+}
+.h3 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+}
+.register {
+  color: yellow;
+}
+.country {
+  color: #ffffff;
+  margin-top: 10px;
+  font-weight: 300;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+.mark {
+  width: 30px;
+  object-fit: contain;
+}
+.secondHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
+}
+
+.question {
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  margin-top: -30px;
+}
+
+.input {
+  width: 370px;
+  padding-bottom: 20px !important;
+  margin-top: 30px;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.txt {
+  outline: none !important;
+  padding-top: 20px !important
+  ;
+}
+
+.button {
+  text-transform: lowercase !important;
+  font-size: 16px !important
+  ;
+  background-color: #d9d7d7 !important;
+  width: 370px;
+  padding: 4px !important;
+}
+.button:hover {
+  background-color: grey !important;
+}
+.thirdContainer {
+  background-color: #3d87c6;
+  color: #ffffff;
+  margin-top: 60px;
+  padding: 10px;
+  height: 10vh;
+}
+
+.lst {
+  text-align: center;
+}
+.text {
+  font-weight: normal;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.cookie {
+  color: #1f4463;
+  cursor: pointer;
+}
+.click {
+  cursor: pointer;
+}
+.click:hover {
+  border-bottom: 1px solid #ffffff;
+}
+.tata {
+  font-weight: bolder;
+}
+
+.service {
+  font-weight: 400;
+}
+.rpage {
+  height: 95vh;
+  width: 95vw;
+}
+
+.imgContainer {
+  width: 100vw;
+  height: 99vh;
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  color: #ffffff;
+  margin-top: -200px;
+}
+.welcomes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  color: #ffffff;
+  margin-top: -40px;
+}
+.productContainer {
+  overflow: hidden;
+}
+.rexa {
+  width: 60px;
+  position: sticky;
+  bottom: 10px;
+  left: 1400px;
+  margin-top: -80px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.rexa:hover {
+  transform: scale(1.2);
+}
+.image {
+  width: 20%;
+  height: 30%;
+  margin-top: -530px;
+  margin-left: 1000px;
+  border: 1px solid #2e7891;
+  border-radius: 10px;
+  outline: none;
+}
+.modal {
+  margin-top: -170px;
+}
